@@ -27,6 +27,12 @@ module.exports = {
     'space-before-blocks': 'error',
     'import/prefer-default-export': 'off',
     'no-unused-vars': 'off',
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      },
+    ],
   },
   settings: {
     react: {
