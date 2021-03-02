@@ -8,6 +8,10 @@ yarn
 
 # Start the project
 yarn start
+
+# Autofix lint problems - todo: fix husky
+yarn lint:fix
+
 ```
 
 ## Problem Statement
