@@ -1,10 +1,27 @@
 body {
   font-family: 'Barlow Semi Condensed', sans-serif;
+<<<<<<< HEAD
   padding: 0;
+=======
+  padding: 20px 40px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+>>>>>>> a749ca9b034565ab777d92a96de43ab5e80354b4
 
-  @media screen and (max-width: 800px) {
-    padding: 10px;
-  }
+#root {
+  width: 414px;
+  height: 736px;
+  border-radius: 20px;
+  background-color: white;
+  border: 0;
+  padding: 1rem;
+  box-sizing: border-box;
+  position: relative;
 }
 
 a {
