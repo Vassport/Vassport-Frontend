@@ -3,6 +3,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import './App.css';
 
+import NavbarBottom from './components/common-components/navbar';
 import HomePage from './pages/homePage/homepage.component';
 import vaccineListPage from './pages/vaccineListPage/vaccineListPage.component';
 import SignInPage from './pages/signInPage/signInPage.component';
@@ -34,7 +35,9 @@ const App = () => {
   const publicRouter = () => (
     <>
       <Route exact path="/signin" component={SignInPage} />
-      <Redirect from="*" to="/signin" />
+      {/* added tempolarily */}
+      <Route exact path="/vaccineList" component={vaccineListPage} />
+      {/* <Redirect from="*" to="/signin" /> */}
     </>
   );
 
@@ -44,6 +47,7 @@ const App = () => {
       <Route path="/vaccineList" component={vaccineListPage} />
     </>;
   };
+
   return <Switch>{user ? privateRouter() : publicRouter()}</Switch>;
 };
 
