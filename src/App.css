@@ -1,8 +1,6 @@
 body {
   font-family: 'Barlow Semi Condensed', sans-serif;
-<<<<<<< HEAD
   padding: 0;
-=======
   padding: 20px 40px;
   width: 100vw;
   height: 100vh;
@@ -11,7 +9,6 @@ body {
   align-items: center;
   background-color: black;
 }
->>>>>>> a749ca9b034565ab777d92a96de43ab5e80354b4
 
 #root {
   width: 414px;
@@ -34,6 +31,30 @@ a {
 }
 
 .App {
-  min-height: 300px;
-  max-height: 350px;
+}
+
+.custom-navbar {
+  padding: 0.3rem 1rem 0 1rem;
+  background-color: #0b536b;
+  color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1040;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 414px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.custom-navbar a {
+  color: white;
+}
+.nav-item {
+  width: 5rem;
+  border: transparent;
+  text-align: center;
+  font-size: 0.8rem;
 }
