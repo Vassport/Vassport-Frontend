@@ -18,7 +18,7 @@ export default function NavbarBottom() {
           </a>
         </div>
         <div className="nav-item">
-          <a href="/vaccine-list">
+          <a href="/access-log">
             {' '}
             <AiOutlineBars />
             <br />
@@ -26,7 +26,7 @@ export default function NavbarBottom() {
           </a>
         </div>
         <div className="nav-item">
-          <a href="/vaccine-list">
+          <a href="/symptoms">
             {' '}
             <FaHeart />
             <br />
@@ -34,7 +34,7 @@ export default function NavbarBottom() {
           </a>
         </div>
         <div className="nav-item">
-          <a href="/vaccine-list">
+          <a href="/profile">
             {' '}
             <FaUser />
             <br />
