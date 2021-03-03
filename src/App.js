@@ -7,6 +7,8 @@ import NavbarBottom from './components/common-components/navbar';
 import HomePage from './pages/homePage/homepage.component';
 import vaccineListPage from './pages/vaccineListPage/vaccineListPage.component';
 import SignInPage from './pages/signInPage/signInPage.component';
+import SignUpPage from './pages/signUpPage/signUpPage.component';
+import AddProfilePage from './pages/addProfilePage/addProfilePage.component';
 
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 
@@ -35,9 +37,10 @@ const App = () => {
   const publicRouter = () => (
     <>
       <Route exact path="/signin" component={SignInPage} />
-      {/* added tempolarily */}
+      {/* <Redirect from="/" to="/signin" /> */}
+      <Route exact path="/signup" component={SignUpPage} />
       <Route exact path="/vaccineList" component={vaccineListPage} />
-      {/* <Redirect from="*" to="/signin" /> */}
+      <Route exact path="/addprofile" component={AddProfilePage} />
     </>
   );
 

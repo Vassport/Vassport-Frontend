@@ -47,6 +47,7 @@ class SignUp extends Component {
 
     return (
       <div className="sign-up">
+        <div className="title">Create an account</div>
         <form className="sign-up-form" onSubmit={this.handleSubmit}>
           <FormInput
             type="email"
