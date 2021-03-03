@@ -10,6 +10,7 @@ module.exports = {
     'plugin:jsx-a11y/strict',
     'plugin:prettier/recommended',
   ],
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -27,6 +28,10 @@ module.exports = {
     'space-before-blocks': 'error',
     'import/prefer-default-export': 'off',
     'no-unused-vars': 'off',
+    'import/no-unresolved': 'off',
+    'no-console': 'off',
+    'react/prop-types': 'off',
+    'react/no-unescaped-entities': 'off',
   },
   settings: {
     react: {
