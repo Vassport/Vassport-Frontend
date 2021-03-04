@@ -2,12 +2,13 @@ import React from 'react';
 import { Card, Form } from 'react-bootstrap';
 import { IoIosArrowForward } from 'react-icons/io';
 import NavbarBottom from '../../components/common-components/navbar';
-
+import Topbar from '../../components/common-components/topbar';
 import './vaccineListPage.styles.scss';
 
 const VaccineListPage = () => {
   return (
     <div className="vaccineListPage">
+      <Topbar />
       <h1>Liam Green</h1>
       <Form.Group>
         <Form.Control type="text" placeholder="Search" />
