@@ -7,16 +7,22 @@
   bottom: 0;
   display: flex;
   justify-content: space-between;
-}
 
-.info {
-  display: flex;
-  align-items: center;
-}
+  .info {
+    display: flex;
+    align-items: center;
+  }
 
-img {
-  display: block;
-  margin: 0 auto;
-  height: 200px;
-  width: 230px;
+  img {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    width: 230px;
+  }
+  .title {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 20px;
+  }
 }
