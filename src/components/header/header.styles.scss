@@ -1,0 +1,31 @@
+.header-container {
+    margin: 0 auto;
+    padding-bottom: 0.7rem;
+    text-align: center;
+    width: 100%;
+}
+
+.header-inside-container {
+    display: inline-block;
+}
+
+.header-heading {
+    text-align: center;
+    display: inline-block;
+    width: 270px;
+    padding: 0.5rem 1rem;
+    margin: 0;
+}
+
+.header-home {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    margin-bottom: 0.7rem;
+    padding: 0.2rem;
+}
+
+.header-back {
+    display: inline-block;
+    margin-bottom: 0.7rem;
+}

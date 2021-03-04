@@ -1,5 +1,6 @@
 body {
   font-family: 'Barlow Semi Condensed', sans-serif;
+  padding: 0;
   padding: 20px 40px;
   width: 100vw;
   height: 100vh;
@@ -11,7 +12,7 @@ body {
 
 #root {
   width: 414px;
-  height: 736px;
+  height: 860px;
   border-radius: 20px;
   background-color: white;
   border: 0;
@@ -27,4 +28,33 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.App {
+}
+
+.custom-navbar {
+  padding: 0.3rem 1rem 0 1rem;
+  background-color: #0b536b;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1040;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 414px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.custom-navbar a {
+  color: white;
+}
+.nav-item {
+  width: 5rem;
+  border: transparent;
+  text-align: center;
+  font-size: 0.8rem;
 }

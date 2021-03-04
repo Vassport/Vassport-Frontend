@@ -3,9 +3,11 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import './App.css';
 
+import NavbarBottom from './components/common-components/navbar';
 import HomePage from './pages/homePage/homepage.component';
 import vaccineListPage from './pages/vaccineListPage/vaccineListPage.component';
 import SignInPage from './pages/signInPage/signInPage.component';
+import DetailPage from './pages/detailPage/detailPage.component';
 
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 
@@ -34,7 +36,9 @@ const App = () => {
   const publicRouter = () => (
     <>
       <Route exact path="/signin" component={SignInPage} />
-      <Redirect from="*" to="/signin" />
+      <Route path="/vaccineList" component={vaccineListPage} />
+      <Route exact path="/detail/:index" component={DetailPage} />
+      {/* <Redirect from="*" to="/signin" /> */}
     </>
   );
 
