@@ -7,8 +7,9 @@ import NavbarBottom from './components/common-components/navbar';
 import HomePage from './pages/homePage/homepage.component';
 import vaccineListPage from './pages/vaccineListPage/vaccineListPage.component';
 import SignInPage from './pages/signInPage/signInPage.component';
-import DetailPage from './pages/detailPage/detailPage.component';
+import SignUpPage from './pages/signUpPage/signUpPage.component';
 import AddProfilePage from './pages/addProfilePage/addProfilePage.component';
+import DetailPage from './pages/detailPage/detailPage.component';
 
 import { checkLogin } from './common/user.reducer';
 import { auth } from './firebase/firebase.utils';
@@ -24,8 +25,6 @@ const App = () => {
   // auth.signOut();
   console.log('user:', user, isProfile);
 
-  const privateRouter = () => {
-    <>
   return (
     <Switch>
       <Route exact path="/signin" render={() => (user ? <Redirect to="/" /> : <SignInPage />)} />
