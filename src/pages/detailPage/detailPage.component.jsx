@@ -4,7 +4,7 @@ import { Switch } from '@material-ui/core';
 import DetailInfoLine from '../../components/detail-info-line/detail-info-line.component';
 import vaccineDetails from '../../data/vaccineDetails.json';
 import NavbarBottom from '../../components/common-components/navbar';
-import Header from '../../components/header/header.component';
+import Header from '../../components/common-components/header/header.component';
 
 import './detailPage.styles.scss';
 
@@ -22,7 +22,7 @@ const DetailPage = props => (
       <QRCode
         align="center"
         className="detail-qr"
-        value="https://www.npmjs.com/package/qrcode.react"
+        value="https://www.figma.com/proto/SBKa7B2svR5Lzw5WXVprhZ/Vassport?node-id=5%3A1&scaling=scale-down"
         size={340}
         level="H"
       />

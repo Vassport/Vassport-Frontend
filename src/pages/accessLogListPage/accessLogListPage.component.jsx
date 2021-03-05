@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import NavbarBottom from '../../components/common-components/navbar';
-import Header from '../../components/header/header.component';
+import Header from '../../components/common-components/header/header.component';
 import accessDetails from '../../data/accessLogs.json';
 
 import './accessLogListPage.styles.scss';
