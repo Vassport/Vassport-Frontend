@@ -1,6 +1,11 @@
-# Vassport
+# Vassport   <a href="url"><img src="https://raw.githubusercontent.com/Vassport/Vassport-Frontend/master/public/favicon.ico" height="40px"/></a>
 
-<a href="url"><img src="https://raw.githubusercontent.com/Vassport/Vassport-Frontend/master/public/favicon.ico" height="100px"/></a>
+## Presentation Video
+https://www.youtube.com/watch?v=3LwKyq7KAx8
+
+## Prototype
+https://www.figma.com/proto/SBKa7B2svR5Lzw5WXVprhZ/Vassport?node-id=5%3A1&scaling=scale-down  
+
 
 ## How to run the app
 
@@ -32,12 +37,6 @@ Mobile application that can be downloadable by any smartphone user and it is abl
 - Vassport is able to accommodate multiple users. This multi-user availability especially useful when kids in their very young age without phones have their vaccination record managed by their parents. And for parents, their accounts are separate from kids and they are able to manage their own accounts with their own vaccination record.
 - User can record and track their symptoms regarding post-vaccination side effects. The user’s symptoms data can be sent to doctors for research and development or it can be used as a data for doctors to avoid recommending specific vaccines to individuals with certain symptoms if the user chooses to share the symptoms information.
 - Activity log which tracks the location that the user has visited, and that location information is stored as records inside the system. This will be useful for parents that are able to know where their children have visited if the children have their own smartphone. And for any general users, it will help them track their visited locations. For health workers, it will help them know if their patient who has recently had their vaccination has effective immunity rate even in high infectious location.
-
-## Presentation Video
-https://www.youtube.com/watch?v=3LwKyq7KAx8
-
-## Prototype
-https://www.figma.com/proto/SBKa7B2svR5Lzw5WXVprhZ/Vassport?node-id=5%3A1&scaling=scale-down  
 
 ## Used Technology
 
