@@ -33,6 +33,9 @@ Mobile application that can be downloadable by any smartphone user and it is abl
 - User can record and track their symptoms regarding post-vaccination side effects. The user’s symptoms data can be sent to doctors for research and development or it can be used as a data for doctors to avoid recommending specific vaccines to individuals with certain symptoms if the user chooses to share the symptoms information.
 - Activity log which tracks the location that the user has visited, and that location information is stored as records inside the system. This will be useful for parents that are able to know where their children have visited if the children have their own smartphone. And for any general users, it will help them track their visited locations. For health workers, it will help them know if their patient who has recently had their vaccination has effective immunity rate even in high infectious location.
 
+## Prototype
+https://www.figma.com/proto/SBKa7B2svR5Lzw5WXVprhZ/Vassport?node-id=5%3A1&scaling=scale-down  
+
 ## Used Technology
 
 - React
