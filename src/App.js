@@ -10,6 +10,7 @@ import SignInPage from './pages/signInPage/signInPage.component';
 import SignUpPage from './pages/signUpPage/signUpPage.component';
 import AddProfilePage from './pages/addProfilePage/addProfilePage.component';
 import DetailPage from './pages/detailPage/detailPage.component';
+import AccessLogListPage from './pages/accessLogListPage/accessLogListPage.component';
 
 import { checkLogin } from './common/user.reducer';
 import { auth } from './firebase/firebase.utils';
@@ -35,9 +36,9 @@ const App = () => {
       />
       <Route exact path="/vaccineList" component={vaccineListPage} />
       <Route exact path="/detail/:index" component={DetailPage} />
-      <Route exact path="/" component={HomePage} />
-      <Route path="/vaccineList" component={vaccineListPage} />
+      <Route exact path="/accessLog" component={AccessLogListPage} />
       <Route exact path="/addprofile" component={AddProfilePage} />
+      <Route exact path="/" component={HomePage} />
     </Switch>
   );
 };

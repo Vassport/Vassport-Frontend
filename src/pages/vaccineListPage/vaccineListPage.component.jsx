@@ -4,7 +4,6 @@ import { Card, Form } from 'react-bootstrap';
 import { IoIosArrowForward } from 'react-icons/io';
 import NavbarBottom from '../../components/common-components/navbar';
 import Header from '../../components/header/header.component';
-import Topbar from '../../components/common-components/topbar';
 import vaccineDetails from '../../data/vaccineDetails.json';
 
 import './vaccineListPage.styles.scss';
@@ -15,7 +14,7 @@ const annualVaccines = vaccineDetails.filter(vaccine => !vaccine.Product.include
 const VaccineListPage = () => {
   return (
     <div className="vaccineListPage">
-      <Topbar />
+      <Header heading="Vaccination Report" />
       <h1>Liam Green</h1>
       <Form.Group>
         <Form.Control type="text" placeholder="Search" />
