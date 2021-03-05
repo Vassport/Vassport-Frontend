@@ -58,3 +58,14 @@ a {
   text-align: center;
   font-size: 0.8rem;
 }
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
+  margin-bottom: 1rem;
+}
+.topbar svg {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 1.3rem;
+}

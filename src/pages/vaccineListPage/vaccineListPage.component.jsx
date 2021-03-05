@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Card, Form } from 'react-bootstrap';
 import { IoIosArrowForward } from 'react-icons/io';

@@ -1,0 +1,17 @@
+.activity-log-user {
+  margin-top: 1rem;
+}
+.activity-log-card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: justify;
+  padding: 1rem;
+}
+.activity-log-title {
+  display: flex;
+  justify-content: space-between;
+}
+.activity-log-verified {
+  color: grey;
+}

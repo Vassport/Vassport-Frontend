@@ -1,8 +1,6 @@
-import React, { Component } from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import React, { Component } from 'react';
 import { FaFileMedical, FaHeart, FaUser } from 'react-icons/fa';
-import { IoFlower } from 'react-icons/io5';
 import { AiOutlineBars } from 'react-icons/ai';
 
 import './navbar.styles.scss';
