@@ -1,0 +1,42 @@
+.profileCard, .addProfileCard {
+    border-radius: 0.5rem;
+}
+
+.addProfileCard {
+    margin-top: 40px;
+}
+
+.profileCard {
+    margin-top: 20px;
+}
+
+.profileCard-body, .addProfileCard-body {
+    display: flex;
+    line-height: 4rem;
+    font-size: 1.5rem;
+}
+
+.profileCard-p {
+    width: 8rem;
+    margin: 0;
+}
+
+.arrow, .add {
+    margin-left: auto;
+}
+
+.arrow, .add, .qrcode {
+    margin-top: 0.75rem;
+    line-height: 4rem;
+}
+
+.qrcode {
+    margin-left: 7rem;
+}
+
+.viewActicityLog-p {
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Inter';
+}

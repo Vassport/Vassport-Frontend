@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Card, Form } from 'react-bootstrap';
 import { IoIosArrowForward } from 'react-icons/io';
 import NavbarBottom from '../../components/common-components/navbar';
-import Header from '../../components/header/header.component';
+import Header from '../../components/common-components/header/header.component';
 import vaccineDetails from '../../data/vaccineDetails.json';
 
 import './vaccineListPage.styles.scss';
