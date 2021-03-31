@@ -24,7 +24,7 @@ const App = () => {
     dispatch(checkLogin());
   }, [dispatch]);
 
-  // auth.signOut();
+  auth.signOut();
   console.log('user:', user, isProfile);
 
   return (
