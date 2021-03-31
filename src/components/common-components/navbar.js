@@ -22,7 +22,7 @@ export default function NavbarBottom() {
             {' '}
             <AiOutlineBars />
             <br />
-            Access Log
+            Activity Log
           </Link>
         </div>
         <div className="nav-item">
