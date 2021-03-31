@@ -8,10 +8,10 @@ const SignInPage = () => (
   <div className="sign-in">
     <img src={logo} alt="logo" />
     <SignIn />
-    <CustomButtonNoBorder>Forget Password? </CustomButtonNoBorder>
+    <CustomButtonNoBorder link="/signin">Forget Password?</CustomButtonNoBorder>
     <div className="create-account">
       <div className="info">Don't have an account?</div>
-      <CustomButtonNoBorder>Create account</CustomButtonNoBorder>
+    <CustomButtonNoBorder link="/signup">Create account</CustomButtonNoBorder>
     </div>
   </div>
 );

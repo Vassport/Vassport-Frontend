@@ -40,7 +40,7 @@ const App = () => {
       <Route exact path="/accessLog" component={AccessLogListPage} />
       <Route exact path="/addprofile" component={AddProfilePage} />
       <Route exact path="/profiles" component={ProfilesPage} />
-      <Route exact path="/" render={() => (user ? <Redirect to="/profiles" /> : <SignUpPage />)} />
+      <Route exact path="/" render={() => (user ? <Redirect to="/profiles" /> : <SignInPage />)} />
     </Switch>
   );
 };
